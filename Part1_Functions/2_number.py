@@ -10,3 +10,9 @@
 # Output: 25
 
 # Write your code here:
+def square(n):
+    return n * n
+
+number = int(input("Input: "))
+result = square(number)
+print("Output:", result)    
